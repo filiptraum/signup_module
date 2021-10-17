@@ -1,0 +1,16 @@
+.btn-next {
+    display: block;
+    margin: 30px 0px 30px auto;
+    background-color: transparent;
+    padding: 2px 20px 2px 5px;
+    border: 1px solid transparent;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    color: #498FE1;
+    transition: 0.25s linear;
+
+    &:hover,
+    &:focus {
+        border-color: #498FE1;
+    }
+}

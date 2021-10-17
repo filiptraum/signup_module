@@ -1,0 +1,19 @@
+.btn-dashboard {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 15px 20px;
+    border: 1px solid #498FE1;
+    border-radius: 5px;
+    color: #498FE1;
+    transition: 0.25s linear;
+
+    &:hover,
+    &:focus {
+        font-weight: 600;
+        background-color: #498FE1;
+        color: white;
+    }
+}

@@ -1,0 +1,15 @@
+.step {
+    display: flex;
+    flex-direction: column;
+    height: 354px;
+    padding: 0 10px;
+    border-bottom: 1px solid #C3C3C3;
+
+    .block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 15px;
+    }
+}
